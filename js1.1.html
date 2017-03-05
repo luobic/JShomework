@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IFE JavaScript Task 01</title>
+  </head>
+<body>
+    <label>请输入北京今天的空气质量：<input id="aqi-input" type="text"></label>
+    <button id="button" onClick="a();">确认填写</button>
+
+    <div>您输入的值是：<span id="aqi-display"></span></div>
+    <script type="text/javascript">
+    function a(){
+        var b = document.getElementById("aqi-input").value;
+        document.getElementById("aqi-display").innerHTML = b;
+    }
+    </script>
+</body>
+</html>
